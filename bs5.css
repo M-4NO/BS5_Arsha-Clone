@@ -1,0 +1,337 @@
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+header {
+  background-color: #0d6efd;
+}
+
+.helo a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 27px;
+}
+.nav-item a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.nav-item button {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.nav-item a:hover {
+  color: rgb(71, 178, 228);
+}
+.dropdown {
+  color: white;
+}
+.dropdown a,
+li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.dropdown a:hover,
+li:hover {
+  color: rgb(71, 178, 228);
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dpn {
+  position: relative;
+  left: 140px;
+  top: 0px;
+}
+.dpn:hover {
+  visibility: visible;
+}
+.hme {
+  background-color: #0d6efd;
+  display: flex;
+}
+.hme img {
+  height: 400px;
+}
+
+.box1 {
+  display: flex;
+}
+.box1 h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.box1 button {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.box1 button:hover {
+  color: white;
+  background-color: rgb(41, 60, 93);
+}
+.box2 {
+  display: flex;
+}
+.teim {
+  display: flex;
+  background-color: #f3f5fa;
+}
+
+.box11,
+.box12,
+.box13,
+.box14,
+.box15,
+.box16 {
+  display: flex;
+}
+
+.box11 img {
+  width: 80px;
+}
+.box12 img {
+  width: 80px;
+}
+.box13 img {
+  width: 80px;
+}
+.box14 img {
+  width: 80px;
+}
+.box15 img {
+  width: 80px;
+}
+.box16 img {
+  width: 80px;
+}
+.abt {
+  min-height: 50px;
+}
+.abt h1 {
+  color: #0d6efd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.abti {
+  min-height: 50px;
+}
+.abti p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.piho p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.piho p::before {
+  content: url(./image/icons8-checkmark-blue-20.png);
+  padding-right: 5px;
+}
+.abti button:hover {
+  color: white;
+  background-color: #5bc0de;
+}
+.acli {
+  background-color: #f3f5fa;
+}
+
+.aclib1 p,
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.aclib1 img {
+  height: 450px;
+}
+.aclib1 button {
+  color: black;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.aclib1 button:hover {
+  color: #5bc0de;
+  background-color: white;
+}
+.aclp {
+  background-color: #e2e2e2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.skilb img {
+  height: 300px;
+}
+.skilb h1,
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.servis {
+  background-color: #f3f5fa;
+}
+.servis h1 {
+  color: #0d6efd;
+}
+.serbox {
+  background-color: rgb(216, 216, 216);
+}
+.serbox:hover {
+  color: #4ea5c0;
+}
+.servis h1,
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.serbox h1,
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.catabg {
+  width: 100%;
+  background-image: url(./image/cta-bg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.catag {
+  height: 400px;
+  width: 100%;
+  background-color: rgba(1, 53, 112, 0.699);
+}
+.catabo p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.protol p,
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.protoli ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+.protoli a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 15px;
+}
+
+.protoli a:hover {
+  background-color: #5bc0de;
+  border-radius: 25px;
+  color: white;
+}
+.teame {
+  min-height: 50px;
+  background-color: #e2e2e2;
+}
+.teameh h1 {
+  color: #0d6efd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.teamep p {
+  color: #0d6efd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.teamebo {
+  background-color: rgb(255, 255, 255);
+}
+
+.teamebo1 img {
+  width: 180px;
+  height: 180px;
+}
+.teamebo2 h4 {
+  color: #0d6efd;
+}
+.prich h1 {
+  color: #0d6efd;
+}
+.prich p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.faqsh {
+  background-color: rgb(234, 234, 234);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.faqshb {
+  background-color: white;
+}
+.cantc {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.jinh {
+  background-color: rgb(234, 234, 234);
+}
+.foter {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+.foterlh li:hover {
+  color: #4ea5c0;
+}
+.cpyi {
+  background-color: #0d6efd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.cpyia a {
+  color: #5ecaeb;
+  text-decoration: none;
+}
+
+.cpyia a:hover {
+  color: #68dcff;
+}
+.butn {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.butn button {
+  background-color: #2d9df8;
+}
+.butn button:hover {
+  background-color: #52adf8;
+}
+
+.butn a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
